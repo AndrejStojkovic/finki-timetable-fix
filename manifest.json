@@ -1,0 +1,26 @@
+{
+  "name": "Finki Timetable Fix",
+  "description": "An extension that fixes the mistake on the FINKI timetable.",
+  "version": "1.0",
+  "manifest_version": 3,
+	"permissions": ["tabs", "activeTab", "scripting"],
+	"host_permissions": [
+		"*://finki.edupage.org/*"
+	],
+	"content_scripts": [
+    {
+      "matches": ["*://finki.edupage.org/*"],
+      "js": ["main.js"]
+    }
+  ],
+	"action": {
+    "default_popup": "popup.html",
+		"default_icon": {
+      "16": "/images/icon_16.png",
+      "32": "/images/icon_32.png",
+      "48": "/images/icon_48.png",
+			"64": "/images/icon_64.png",
+      "128": "/images/icon_128.png"
+    }
+  }
+}
