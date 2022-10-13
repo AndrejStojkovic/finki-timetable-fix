@@ -5,3 +5,6 @@ An extension that lets you fix the FINKI timetable problem with "8:00 - 9:45" ea
 
 ## Installation Guide:
 <img src='misc/installation.png' />
+
+## Preview:
+<img src='misc/preview.png' />
